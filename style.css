@@ -1,0 +1,9 @@
+h1{
+    font-family: 'Overpass', sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-85%);
+    font-size: 70px;
+    color: white;
+}    
