@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="gradient.css" />
+    <link rel="stylesheet" href="navbar/navbar.css">
     <link href="https://fonts.googleapis.com/css?family=Overpass:600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:800" rel="stylesheet">
 </head>
@@ -15,6 +16,20 @@
 <body>
         <a class="head"><span>RAJAGIRI PORTAL</span></a>
         
+        <!--Nav Bar-->
+        <aside class="west">
+                <div class="west__trigger">MENU</div>
+                <nav class="west__menu">
+                    <h2>Websites</h2>
+                    <ul class="west__wrapper">
+                        <li class="west__list"><a href="https://www.rajagiricollege.edu.in" class="west__link">RCMAS</a></li>
+                        <li class="west__list"><a href="https://www.rajagiritech.ac.in" class="west__link">RSET</a></li>
+                        <li class="west__list"><a href="http://rcss.rajagiri.edu" class="west__link">RCSS</a></li>
+                        <li class="west__list"><a href="http://www.christujayanthi.ac.in" class="west__link">RCJPS</a></li>
+                        <li class="west__list"><a href="https://rajagiribusinessschool.com/" class="west__link">RBS</a></li>
+                    </ul>
+                </nav>
+            </aside>        
         <!--Particles.js-->
         <div id="particles-js">
                 <canvas class="particles-js-canvas-el" width="1280" height="720"></canvas></div>
@@ -23,6 +38,7 @@
         <!--Link Js Files-->
         <script src="particles/particles.min.js"></script>
         <script src="particles/app.js"></script>
+        <script src="navbar/navbar.js"></script>
 </body>
 
 </html>
